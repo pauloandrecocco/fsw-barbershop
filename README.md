@@ -67,4 +67,8 @@ npx prisma db seed // Roda o seed
 npm install -D prettier@3.3.3 prettier-plugin-tailwindcss@0.6.5 // Adiciona plugin Prettier Tailwind
 
 npx shadcn@3.0.0 init // Versão deprecated usada originalmente: npx shadcn-ui@0.9.5 init
+
+npm install -D husky@9.1.1 lint-staged@15.2.7
+
+npx husky init
 ```
