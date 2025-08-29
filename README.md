@@ -40,6 +40,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Passo a Passo do Setup do Projeto
 
 ```ts
+// Usando Node v20.5.0 neste projeto
+
 npx create-next-app@14.2.5 fsw-barber // Cria projeto Next
 
 npm install prisma@5.17.0 --save-dev // Instala Prisma
@@ -63,4 +65,6 @@ npm install -D ts-node@10.9.2
 npx prisma db seed // Roda o seed
 
 npm install -D prettier@3.3.3 prettier-plugin-tailwindcss@0.6.5 // Adiciona plugin Prettier Tailwind
+
+npx shadcn@3.0.0 init // Versão deprecated usada originalmente: npx shadcn-ui@0.9.5 init
 ```
