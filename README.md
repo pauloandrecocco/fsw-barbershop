@@ -71,4 +71,6 @@ npx shadcn@3.0.0 init // Versão deprecated usada originalmente: npx shadcn-ui@0
 npm install -D husky@9.1.1 lint-staged@15.2.7
 
 npx husky init
+
+npm install -D git-commit-msg-linter@5.0.8
 ```
