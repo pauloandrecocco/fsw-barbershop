@@ -61,4 +61,6 @@ npx prisma migrate dev --name init_db // Roda a migration
 npm install -D ts-node@10.9.2
 
 npx prisma db seed // Roda o seed
+
+npm install -D prettier@3.3.3 prettier-plugin-tailwindcss@0.6.5 // Adiciona plugin Prettier Tailwind
 ```
